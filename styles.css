@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1075px;
+    height: 1650px;
+    margin-left: 70px;
+}
+
+.header {
+    background-color: red;
+    color: white;
+    padding: 16px;
+    padding-right: 20px;
+    margin-right: 50px;
+    width:150px;
+    display: block;
+
+    text-align: center;
+}
+
+.headers {
+    display: flex;
+}
+
+.header2 {
+    margin: 30px;
+    font-size: 28px;
+    font-family: monospace;
+}
+
+/*.navbar {
+    display: flex;
+    margin-top: 20px;
+}
+
+.nav-link {
+    margin-right: 62px;
+}
+
+.nav-link a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    border-bottom: 2px pink solid;
+    padding-bottom: 5px;
+}*/
+
+a:hover {
+    color: pink;
+}
+
+a:active {
+    color: crimson;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form input {
+    height: 45px;
+    width: 1075px;
+    border: 2px black solid;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.arrivals {
+    height: 420px;
+    border-bottom: 4px gray solid;
+    margin-top: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 34px;
+    margin-bottom: 34px;
+}
+
+.cardCont {
+    display: flex;
+    height: 600px;
+    width: 1075px;
+    box-sizing: border-box;
+}
+
+.img {
+    height: 170px;
+    width: 150px;
+}
+
+.card {
+    height: 200px;
+    width: 500px;
+    margin-right: 81.3px;
+    font-size: 18px;
+}
+
+.card > h3 {
+    margin-top: 10px;
+}
+
+.topSell {
+    height: 420px;
+    border-bottom: 4px solid gray;
+    margin-top: 20px;
+}
+
+.topSellCont {
+    display: flex;
+    height: 600;
+}
+
+.lookForCard {
+    display: flex;
+    margin-top: 20px;
+}
+
+.secLookForCard {
+    display: flex;
+    margin-top: 20px;
+}
+
+.card a {
+    text-decoration: none;
+    color: black;
+}
+
+.card a:hover {
+    color: pink;
+}
+
+.about {
+    background-color: rgb(219, 56, 56);
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.productPhotos {
+    display: flex;
+    margin-top: 34px;
+}
+
+.displayProductImg {
+    margin-right: 38px;
+}
+
+.productTitle {
+    font-size: 70px;
+}
+
+.productDescription {
+    width: 1070px;
+}
+
+.productDescription > h2 {
+    margin-top: 20px;
+    /*border-bottom: 2px gray solid;*/
+}
+
+.productCondition {
+    width: fit-content;
+    background-color: red;
+    color: white;
+    margin-top: 12px;
+    padding: 3px;
+    border-radius: 3px;
+    font-size: 13px;
+}
+
+h2 {
+    font-size: 35px;
+}
+footer {
+    background-color: rgb(97, 14, 14);
+    color: red;
+    justify-content: space-between;
+    padding: 35px;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    justify-content: space-between;
+}
+
+.footA {
+    display: inline-flex;
+    margin-left: 28px;
+}
